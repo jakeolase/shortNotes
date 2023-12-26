@@ -1,0 +1,22 @@
+{
+    "name": "shortNotes - A Note Extension",
+    "description": "shortNotes is a simple yet powerful note application that allows notes to be kept through a browser extension",
+    "version": "1.0",
+    "manifest_version": 3, 
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": {
+            "16": "./images/shortNote_logo.png",
+            "32": "./images/shortNote_logo.png",
+            "48": "./images/shortNote_logo.png",
+            "128": "./images/shortNote_logo.png"
+        }
+    },
+    "icons": {
+        "16": "./images/shortNote_logo.png",
+        "32": "./images/shortNote_logo.png",
+        "48": "./images/shortNote_logo.png",
+        "128": "./images/shortNote_logo.png"
+    },
+    "permissions": ["storage", "tabs", "scripting"]
+}
